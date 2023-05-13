@@ -14,64 +14,64 @@ void Display(void) {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
 	glColor3f(0, 7, 0);
-	glTranslatef(0.0, 8.0, -10.0);   //°øÅëÀûÀ¸·Î Àû¿ë
+	glTranslatef(0.0, 8.0, -10.0);   //ê³µí†µì ìœ¼ë¡œ ì ìš©
 	glPushMatrix();
-	DrawQuad(); //ÃÖÃÊ¸Ó¸®
+	DrawQuad(); //ìµœì´ˆë¨¸ë¦¬
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(0.0, -5.0, 0.0);
 	glScalef(3, 4, 1);
-	DrawQuad();  //¸öÅë
+	DrawQuad();  //ëª¸í†µ
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(-3.5, -3.5, 0.0);
 	glScalef(0.5, 1.5, 1);
-	DrawQuad(); //¿ŞÆÈ À­ºÎºĞ
+	DrawQuad(); //ì™¼íŒ” ìœ—ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(-3.5, -6, 0.0);
 	glScalef(0.25, 1.5, 1);
-	DrawQuad(); //¿ŞÆÈ ¾Æ·§ºÎºĞ
+	DrawQuad(); //ì™¼íŒ” ì•„ë«ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(3.5, -3.5, 0.0);
 	glScalef(0.5, 1.5, 1);
-	DrawQuad(); //¿À¸¥ÆÈ À­ºÎºĞ
+	DrawQuad(); //ì˜¤ë¥¸íŒ” ìœ—ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(3.5, -6, 0.0);
 	glScalef(0.25, 1.5, 1);
-	DrawQuad(); //¿À¸¥ÆÈ ¾Æ·§ºÎºĞ
+	DrawQuad(); //ì˜¤ë¥¸íŒ” ì•„ë«ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(-1.5, -11, 0.0);
 	glScalef(1, 2, 1);
-	DrawQuad(); //¿Ş¹ß À­ºÎºĞ
+	DrawQuad(); //ì™¼ë°œ ìœ—ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(-1.5, -15, 0.0);
 	glScalef(0.5, 2, 1);
-	DrawQuad(); //¿Ş¹ß ¾Æ·§ºÎºĞ
+	DrawQuad(); //ì™¼ë°œ ì•„ë«ë¶€ë¶„
 
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(1.5, -11, 0.0);
 	glScalef(1, 2, 1);
-	DrawQuad(); //¿À¸¥¹ß À­ºÎºĞ
+	DrawQuad(); //ì˜¤ë¥¸ë°œ ìœ—ë¶€ë¶„
 
 	glPopMatrix();
 	glPushMatrix();
 	glTranslatef(1.5, -15, 0.0);
 	glScalef(0.5, 2, 1);
-	DrawQuad(); //¿À¸¥¹ß ¾Æ·§ºÎºĞ
+	DrawQuad(); //ì˜¤ë¥¸ë°œ ì•„ë«ë¶€ë¶„
 	glPopMatrix();
 	glFlush();
 }
